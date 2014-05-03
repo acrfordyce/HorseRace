@@ -65,7 +65,7 @@ for group in all:
 	print
 
 print "Average Implied Probability:", compute_average([sum([Horses.get(h) for h in group]) for group in all])
-print "Average Variance:", compute_variance([sum([Horses.get(h) for h in group]) for group in all])
+print "Variance:", compute_variance([sum([Horses.get(h) for h in group]) for group in all])
 print
 print "Optimizing..."
 
@@ -78,4 +78,4 @@ for group in all:
 	print sum([Horses.get(h) for h in group])
 	print
 print "Average Implied Probability:", compute_average([sum([Horses.get(h) for h in group]) for group in all])
-print "Average Variance:", compute_variance([sum([Horses.get(h) for h in group]) for group in all])
+print "Variance:", compute_variance([sum([Horses.get(h) for h in group]) for group in all])
